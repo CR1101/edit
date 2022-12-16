@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.drink-card img {
+  width: 300px;
+  border-radius: 30px;
+}
+.drink-card {
+  margin: 20px;
+  background: rgb(92, 190, 166);
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.drink-card ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: auto;
+}
+.drink-card ul li {
+  list-style-type: none;
+  background: rgb(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+}
+.drink-card ul li:hover {
+  background: rgb(255, 255, 255, 0.8);
+}
+.drinks-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10px;
+}
+.brand-image {
+  border-radius: 15px;
+}
